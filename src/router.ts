@@ -3,15 +3,14 @@ import { initInstructions } from "./pages/instructions";
 import { initGame } from "./pages/game";
 import { initResults } from "./pages/results";
 
+const BASE_PATH = "/desafio-final-mod5";
+
 const routes = [
   { path: /welcome/, component: initWelcome },
   { path: /instructions/, component: initInstructions },
   { path: /game/, component: initGame },
   { path: /results/, component: initResults },
 ];
-
-//Para imágenes
-const BASE_PATH = "/desafio-final-mod5";
 
 function isGithubPages() {
   return location.host.includes("github.io");
@@ -44,8 +43,8 @@ export function initRouter(container: Element) {
   if (
     location.pathname == "/" ||
     location.pathname == "/welcome" ||
-    location.pathname == "/desafio-final-mod5/" ||
-    location.pathname == "/piedra-papel-tijera/"
+    location.pathname == "/desafio-final-mod5" ||
+    location.pathname == "/piedra-papel-tijera"
   ) {
     goTo("/welcome");
   } else {
