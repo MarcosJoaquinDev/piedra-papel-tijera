@@ -1,0 +1,17 @@
+{
+  "name": "desafio-final-mod5",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.36",
+    "parcel": "^2.6.0"
+  },
+  "scripts": {
+    "dev": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir build --public-url /desafio-final-mod5",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
