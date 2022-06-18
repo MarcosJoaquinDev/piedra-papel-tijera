@@ -44,7 +44,8 @@ export function initRouter(container: Element) {
   if (
     location.pathname == "/" ||
     location.pathname == "/welcome" ||
-    location.pathname == "/desafio-final-mod5/"
+    location.pathname == "/desafio-final-mod5/" ||
+    location.pathname == "/piedra-papel-tijera/"
   ) {
     goTo("/welcome");
   } else {
