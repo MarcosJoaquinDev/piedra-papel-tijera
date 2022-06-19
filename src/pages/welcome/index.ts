@@ -1,7 +1,7 @@
 export function initWelcome(param): HTMLElement {
   console.log("soy initWelcome y mi param es: ", param);
 
-  const div = document.createElement("div");
+  const div: any = document.createElement("div");
   div.className = "container";
   div.innerHTML = `
   <text-comp variant='title'>¿Piedra, papel, o tijera?</text-comp>
