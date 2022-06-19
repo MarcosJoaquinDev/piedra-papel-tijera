@@ -4,7 +4,7 @@ export function initGame(param): HTMLElement {
   console.log("soy initGame y mi param es: ", param);
 
   //setInterval: repite una function indefinidamente durante un intervalo
-  let counter = 3;
+  let counter = 5;
   const countdown = setInterval(() => {
     const counterEl: any = div.querySelector(".master-circle");
     counter--;
@@ -73,7 +73,7 @@ export function initGame(param): HTMLElement {
       setTimeout(() => {
         paperUser.classList.add("hand-display-none");
         rockUser.classList.add("hand-display-none");
-      }, 3500);
+      }, 5500);
     } else if (hand === "rock") {
       rockUser.classList.remove("disabled"); //desactivado
       rockUser.classList.add("actived"); //activado
@@ -83,7 +83,7 @@ export function initGame(param): HTMLElement {
       setTimeout(() => {
         paperUser.classList.add("hand-display-none");
         scissorsUser.classList.add("hand-display-none");
-      }, 3500);
+      }, 5500);
     } else if (hand === "paper") {
       paperUser.classList.remove("disabled"); //desactivado
       paperUser.classList.add("actived"); //activado
@@ -93,7 +93,7 @@ export function initGame(param): HTMLElement {
       setTimeout(() => {
         scissorsUser.classList.add("hand-display-none");
         rockUser.classList.add("hand-display-none");
-      }, 3500);
+      }, 5500);
     }
   }
 
@@ -124,9 +124,9 @@ export function initGame(param): HTMLElement {
     }
 
     setTimeout(() => {
-      param.goTo("./results");
-    }, 4000);
-  }, 4000);
+      param.goTo("/results");
+    }, 6000);
+  }, 6000);
 
   //STYLES
   const style = document.createElement("style");
