@@ -12,3 +12,7 @@ Los conceptos trabajados se enmarcan en el aprendizaje de "Arquitectura Web" rel
 *Pages and Components
 *State
 *LocalStorage
+
+URL de GitHub Page:
+
+https://eugeniogimenez.github.io/piedra-papel-tijera/

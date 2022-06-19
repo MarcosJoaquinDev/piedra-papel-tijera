@@ -13,7 +13,7 @@ const routes = [
 ];
 
 function isGithubPages() {
-  return location.host.includes("github.io");
+  return location.host.includes("piedra-papel-tijera");
 }
 //
 
