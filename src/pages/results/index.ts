@@ -59,11 +59,11 @@ export function initResults(param) {
   `;
 
   div.querySelector(".button").addEventListener("click", () => {
-    param.goTo("./game");
+    param.goTo("/game");
   });
 
   div.querySelector(".back").addEventListener("click", () => {
-    param.goTo("./welcome");
+    param.goTo("/welcome");
   });
 
   //style
