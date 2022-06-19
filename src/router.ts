@@ -3,7 +3,7 @@ import { initInstructions } from "./pages/instructions";
 import { initGame } from "./pages/game";
 import { initResults } from "./pages/results";
 
-const BASE_PATH = "piedra-papel-tijera";
+const BASE_PATH = "/piedra-papel-tijera";
 
 const routes = [
   { path: /welcome/, component: initWelcome },
